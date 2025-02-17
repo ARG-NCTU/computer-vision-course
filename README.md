@@ -20,6 +20,41 @@ This is the repository for a community-led course on Computer Vision. Over 60 co
 12. Ethics and Biases
 13. Outlook
 
+## How to run
+
+### GPU Usage
+
+For your first docker terminal:
+```bash
+source gpu_run.sh
+```
+
+More terminal:
+```bash
+source gpu_join.sh
+```
+
+### CPU Usage
+
+For your first docker terminal:
+```bash
+source cpu_run.sh
+```
+
+More terminal:
+```bash
+source cpu_join.sh
+```
+
+### Jupyter Notebook
+
+Run Jupyter Notebook:
+```bash
+source jupyter_notebook.sh
+```
+
+Enter "notebooks" folder and run any notebook you like. Enjoy it !!!
+
 ## Community Powered
 The result you have in front of you is as diverse as the community. A typical educational course is created by a small group of people, who try to match the tone of each other closely. We took a different road. While following a plan on which content we wanted to include, all authors had freedom in the choice of their style. Other members of the community reviewed the content and approved or made change suggestions.
 
