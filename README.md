@@ -22,7 +22,27 @@ This is the repository for a community-led course on Computer Vision. Over 60 co
 
 ## How to run
 
+Clone the repo
+```bash
+git clone git@github.com:ARG-NCTU/computer-vision-course.git
+```
+
+or if you do not have ssh key yet (you should set it up soon)
+```bash
+git clone https://github.com/ARG-NCTU/computer-vision-course.git
+```
+
+Enter the repo:
+```bash
+cd computer-vision-course
+```
+
 ### GPU Usage
+
+Update the docker image:
+```bash
+docker pull argnctu/oop:gpu
+```
 
 For your first docker terminal:
 ```bash
@@ -35,6 +55,11 @@ source gpu_join.sh
 ```
 
 ### CPU Usage
+
+Update the docker image:
+```bash
+docker pull argnctu/oop:latest
+```
 
 For your first docker terminal:
 ```bash
