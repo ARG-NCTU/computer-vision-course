@@ -1,0 +1,7 @@
+data/
+lab1-1-ans.ipynb
+lab1-2-ans.ipynb
+mobilenetv3_large_100_cifar10.pth
+pre_vgg16.pt
+pre_vgg19.pt
+resnet18_cifar10.pth

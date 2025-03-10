@@ -1,0 +1,8 @@
+Boat_dataset/
+data/
+detr-resnet-50-finetuned-1-epoch-boat-dataset/
+detr-resnet-50-finetuned-10-epochs-boat-dataset/
+images/
+source_video/
+output/
+out_video/
