@@ -66,6 +66,9 @@ python3 jsonl2parquet.py
 ```
 
 #### 6. Upload Processed Dataset to Hugging Face Hub
+
+Please replace zhuchi76 with your huggineface account.
+
 ```bash
 huggingface-cli upload zhuchi76/Boat_real_dataset_2023 ./Boat_dataset/data/instances_train2023r.parquet ./data/instances_train2023r.parquet --repo-type=dataset --commit-message="Upload training images and labels to hub"
 
@@ -79,6 +82,9 @@ huggingface-cli upload zhuchi76/Boat_real_dataset_2023 ./Boat_dataset/data/sourc
 ```
 
 #### 7. Download Dataset and Unzip Files
+
+Please replace zhuchi76 with your huggineface account.
+
 ```bash
 mkdir -p data
 huggingface-cli download zhuchi76/Boat_real_dataset_2023 data/images.zip --repo-type dataset --local-dir ./
@@ -103,7 +109,7 @@ python3 detr_video_inference.py -i source_video/WAM_V_1.mp4 -o out_video/WAM_V_1
 ```
 
 ### Output
-- Processed images and labels are stored in `Boat_dataset_2023/data/`
+- Processed images and labels are stored in `Boat_real_dataset_2023/data/`
 - Inference results are saved in `out_video/`
 
 ### Notes
