@@ -14,6 +14,11 @@ or if you do not have ssh key yet (you should set it up soon)
 git clone https://github.com/ARG-NCTU/computer-vision-course.git
 ```
 
+or update the repo:
+```bash
+git pull
+```
+
 Enter the repo:
 ```bash
 cd computer-vision-course
