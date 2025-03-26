@@ -110,6 +110,7 @@ This lab will use notebooks/Unit3-Vision-Transformers/DETR/lab-detr.ipynb for DE
 
 #### 9. Run DETR Video Inference
 ```bash
+cd ~/computer-vision-course/notebooks/Unit3-Vision-Transformers/DETR
 python3 detr_video_inference.py -i source_video/WAM_V_1.mp4 -o out_video/WAM_V_1_out.mp4
 ```
 
